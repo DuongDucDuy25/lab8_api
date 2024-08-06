@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/custom_product"
+    android:elevation="2dp"
+    android:layout_margin="10dp"
+    android:gravity=""
+
+    >
+    <ImageView
+        android:id="@+id/imageSanPham"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/txtTenSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:text="Tên sản phẩm" />
+        <TextView
+            android:id="@+id/txtmauSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:text="Tên sản phẩm" />
+
+        <TextView
+            android:id="@+id/txtGiaSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:text="Giá sản phẩm"
+            android:layout_marginTop="8dp" />
+        <TextView
+            android:id="@+id/txtMotaSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:text="Tên sản phẩm" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
